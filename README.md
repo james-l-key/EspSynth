@@ -40,7 +40,5 @@ The system consists of several types of interconnected modules:
 
 ## Contributing
 
-*(Optional: Add contribution guidelines later)*
-We welcome collaboration! Feel free to open issues for questions, suggestions, or bug reports.
+We welcome collaboration! (Actually we're begging for it!) Feel free to open issues for questions, suggestions, or bug reports. Developers wanted!
 
-*(Optional: Add links to Wiki, schematics folder, etc. later)*
