@@ -1,0 +1,3 @@
+[submodule "ESPSynth_central_controller"]
+	path = ESPSynth_central_controller
+	url = https://github.com/james-l-key/ESPSynth_central_controller.git
