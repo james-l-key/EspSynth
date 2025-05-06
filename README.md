@@ -1,4 +1,5 @@
 # EspSynth
+
 ## ESP32-S3 Modular Digital Synthesizer
 
 ## Project Goal
@@ -19,9 +20,9 @@ An open-source project to design and build a highly flexible, expandable, and po
 
 The system consists of several types of interconnected modules:
 
-1.  **Central Controller:** The brain of the system. Handles the main user interface (color display, pots, buttons), manages the virtual patch matrix, communicates with all modules via a multiplexed I2C control bus, and handles external OSC/MIDI communication.
-2.  **Processing Modules (Oscillator, Filter, Effects, LFO, Mixer):** Dedicated ESP32-S3 modules performing specific DSP tasks. They receive/send audio via I2S TDM and are configured via the main I2C bus. Each features a local OLED display and encoder for address setup and status.
-3.  **I/O Modules:**
+1. **Central Controller:** The brain of the system. Handles the main user interface (color display, pots, buttons), manages the virtual patch matrix, communicates with all modules via a multiplexed I2C control bus, and handles external OSC/MIDI communication.
+2. **Processing Modules (Oscillator, Filter, Effects, LFO, Mixer):** Dedicated ESP32-S3 modules performing specific DSP tasks. They receive/send audio via I2S TDM and are configured via the main I2C bus. Each features a local OLED display and encoder for address setup and status.
+3. **I/O Modules:**
     * **ADC Input Module:** Digitizes external audio signals (using PCM1808) and places them onto the I2S TDM bus.
     * **DAC Output Module:** Receives the final mix via I2S TDM, generates the master audio clocks (MCLK, BCLK, WS) for the entire system, and outputs analog audio (using UDA1334A).
 
@@ -41,4 +42,3 @@ The system consists of several types of interconnected modules:
 ## Contributing
 
 We welcome collaboration! (Actually we're begging for it!) Feel free to open issues for questions, suggestions, or bug reports. Developers wanted!
-
